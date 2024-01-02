@@ -1,0 +1,10 @@
+import { config } from "dotenv";
+config();
+export const gocAlerts = process.env.GOCALERTS;
+export const isoCountryJson = process.env.ISOCOUNTRIES;
+export const alerts = process.env.ALERTCOLLECTION;
+export const atlas = process.env.DBURL;
+export const appdb = process.env.DB;
+export const countries = process.env.COLLECTION;
+export const port = process.env.PORT;
+export const advisorycollection = process.env.ADVISORYCOLLECTION;

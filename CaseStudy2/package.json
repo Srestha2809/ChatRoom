@@ -1,0 +1,22 @@
+{
+    "name": "nodeexercises",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "author": "Srestha",
+    "license": "ISC",
+    "engines": {
+        "node": "18.13"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "socket.io": "^4.6.1",
+        "moment": "^2.29.4"
+    },
+    "scripts": {
+        "start": "node app.js"
+    },
+    "devDependencies": {}
+}
